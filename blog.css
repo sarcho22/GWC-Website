@@ -1,4 +1,54 @@
-title{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    background-color: black;
+    font-family: "Courier New";
+}
+
+.header {
+    padding: 25px;
+    padding-bottom: 35px;
+    background-color: #5998CF;
+
+}
+.title{
     font-size: 100px;
     text-align: center;
+}
+
+.menu{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content{
+    float:left;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.left{
+    padding: 25px;
+    width: 25%;
+    color: lightgrey;
+}
+.right{
+    padding: 50px;
+    padding-left: 75px;
+    width: 72%;
+}
+.secret{
+    color: lightgrey;
+}
+
+
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
 }
