@@ -26,7 +26,7 @@ body {
 
 .content{
     float:left;
-    margin: 10px;
+    margin-inside: 5px;
     font-size: 25px;
 
 }
@@ -39,7 +39,7 @@ body {
 .right{
     padding: 50px;
     padding-left: 75px;
-    width: 72%;
+    width: 75%;
 }
 
 .secret{
