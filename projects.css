@@ -1,0 +1,13 @@
+body{
+    font-family: 'Courier New';
+}
+
+.anything {
+    /*https://css-tricks.com/snippets/css/complete-guide-grid/*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background: powderblue;
+    text-align: center;
+    padding: 20px;
+}
