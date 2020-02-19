@@ -1,5 +1,7 @@
 body{
     font-family: 'Courier New';
+    text-align: center;
+    background: aquamarine;
 }
 
 .container {
@@ -7,7 +9,11 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    background: powderblue;
-    text-align: center;
-    padding: 20px;
+}
+
+.container > div {
+    padding: 1em;
+    margin: 3%;
+    background: #eeeeee;
+    word-wrap: break-word;
 }
