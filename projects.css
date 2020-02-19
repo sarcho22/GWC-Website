@@ -1,7 +1,15 @@
 body{
     font-family: 'Courier New';
     text-align: center;
-    background: aquamarine;
+    color: #EEEEEE;
+    background: #246188;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+    color: goldenrod;
 }
 
 a:link {
@@ -46,6 +54,6 @@ a:active {
 .container > div {
     padding: 1em;
     margin: 3%;
-    background: #eeeeee;
+    background: #4F95C4;
     word-wrap: break-word;
 }
