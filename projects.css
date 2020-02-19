@@ -2,7 +2,7 @@ body{
     font-family: 'Courier New';
 }
 
-.anything {
+.container {
     /*https://css-tricks.com/snippets/css/complete-guide-grid/*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
